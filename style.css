@@ -1,0 +1,44 @@
+#First
+{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.sevillana-regular
+{
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:darkslategrey;
+}
+
+li
+{
+    display: inline;
+    margin-right: 30px;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+ul
+{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.home-link
+{
+    text-decoration: none;
+    color: darkslategrey;
+}
+  
