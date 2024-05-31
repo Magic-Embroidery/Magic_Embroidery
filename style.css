@@ -1,16 +1,35 @@
+.Title
+{
+    position: relative;
+    background-color: aquamarine;
+    height: 115px;
+}
 #First
 {
-    background-color: aquamarine;
     text-align: center;
     padding: 30px;
     margin: 0;
     font-size: 50px;
+    position:relative;
+    left: 10px;
+    bottom: 150px;
+    
 }
 
 .rowdies-regular {
     font-family: "Rowdies", sans-serif;
     font-weight: 400;
     font-style: normal;
+    position: relative;
+}
+
+.Logo
+{
+    height: 150px;
+    display: inline;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 10px;
 }
 
 li
