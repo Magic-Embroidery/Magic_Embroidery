@@ -1,72 +1,86 @@
-.Title
+@media (max-width: 1536px)
 {
-    position: relative;
-    background-color: aquamarine;
-    height: 115px;
-}
-#First
-{
-    text-align: center;
-    padding: 30px;
-    margin: 0;
-    font-size: 50px;
-    position:relative;
-    left: 10px;
-    bottom: 150px;
+    .Title
+    {
+        position: relative;
+        background-color: aquamarine;
+        height: 115px;
+    }
     
-}
+    #First
+    {
+        text-align: center;
+        padding: 30px;
+        margin: 0;
+        font-size: 70px;
+        position:relative;
+        left: px;
+        bottom: 150px;
+    }
 
-.rowdies-regular {
-    font-family: "Rowdies", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    position: relative;
-}
+    .rowdies-regular {
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+    }
 
-.Logo
-{
-    height: 150px;
-    display: inline;
-    background-color: aquamarine;
-    margin: 0;
-    padding: 10px;
-}
+    .Logo
+    {   
+        height: 150px;
+        display: inline;
+        background-color: aquamarine;
+        margin: 0;
+        padding: 10px;
+    }
 
-li
-{
-    display: inline;
-    margin-right: 30px;
-    text-align: -webkit-match-parent;
-    unicode-bidi: isolate;
-    color: darkslategrey;
-}
+    li
+    {
+        display: inline;
+        margin-right: 30px;
+        text-align: -webkit-match-parent;
+        unicode-bidi: isolate;
+        color: darkslategrey;
+    }
 
-ul
-{
-    background-color: aquamarine;
-    margin: 0;
-    padding: 0;
-}
+    ul
+    {
+        background-color: aquamarine;
+        margin: 0;
+        padding: 0;
+    }
 
-nav
-{
-    text-align: center;
-    background-color: aquamarine;
-    padding: 60px;
-    padding-bottom: 20px;
-}
+    nav
+    {
+        text-align: center;
+        background-color: aquamarine;
+        padding: 60px;
+        padding-bottom: 20px;
+    }
 
-.home-link
-{
-    text-decoration: none;
-    color: darkslategrey;
-}
+    .home-link
+    {
+        text-decoration: none;
+        color: darkslategrey;
+    }
 
-footer
-{
-    background-color: aquamarine;
-    color: darkslategrey;
-    padding: 20px;
-    text-align: center;
+    footer
+    {
+        background-color: aquamarine;
+        color: darkslategrey;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Design > img
+    {
+        height: 400px;
+    }
+    .Grid
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
 }
-  
