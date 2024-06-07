@@ -1,5 +1,3 @@
-
-
 @media (max-width: 1536px)
 {
     li
@@ -253,6 +251,87 @@
     .Design > img
     {
         height: 320px;
+    }
+
+    .Grid
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+}
+
+@media (max-width: 400px)
+{
+    ul
+    {
+        background-color: aquamarine;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .Title
+    {
+        position: relative;
+        background-color: aquamarine;
+        height: 10px;
+    }
+    
+    #First
+    {
+        text-align: center;
+        padding: 30px;
+        margin: 0;
+        font-size: 20px;
+        position:relative;
+        left: 10px;
+        bottom: 80px;
+    }
+
+    .rowdies-regular {
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+    }
+
+    .Logo
+    {   
+        height: 50px;
+        display: inline;
+        background-color: aquamarine;
+        margin: 0;
+        padding: 10px;
+    }
+
+    nav
+    {
+        text-align: center;
+        background-color: aquamarine;
+        padding: 60px;
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+
+    .home-link
+    {
+        text-decoration: none;
+        color: darkslategrey;
+    }
+
+    footer
+    {
+        background-color: aquamarine;
+        color: darkslategrey;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Design > img
+    {
+        height: 150px;
     }
 
     .Grid
