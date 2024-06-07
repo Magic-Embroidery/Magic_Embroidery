@@ -260,6 +260,12 @@
         row-gap: 10px;
         column-gap: 10px;
     }
+
+    .Design
+    {
+        border-style: solid;
+        border-color: black solid;
+    }
 }
 
 @media (max-width: 400px)
@@ -331,7 +337,7 @@
 
     .Design > img
     {
-        height: 150px;
+        height: 190px;
     }
 
     .Grid
@@ -340,5 +346,11 @@
         grid-template-columns: 1fr 1fr;
         row-gap: 10px;
         column-gap: 10px;
+    }
+
+    .Design
+    {
+        border-style: solid;
+        border-color: black solid;
     }
 }
