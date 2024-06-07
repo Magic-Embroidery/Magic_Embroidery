@@ -1,5 +1,23 @@
+
+
 @media (max-width: 1536px)
 {
+    li
+    {
+        display: inline;
+        margin-right: 30px;
+        text-align: -webkit-match-parent;
+        unicode-bidi: isolate;
+        color: darkslategrey;
+    }
+
+    ul
+    {
+        background-color: aquamarine;
+        margin: 0;
+        padding: 0;
+    }
+
     .Title
     {
         position: relative;
@@ -34,22 +52,6 @@
         padding: 10px;
     }
 
-    li
-    {
-        display: inline;
-        margin-right: 30px;
-        text-align: -webkit-match-parent;
-        unicode-bidi: isolate;
-        color: darkslategrey;
-    }
-
-    ul
-    {
-        background-color: aquamarine;
-        margin: 0;
-        padding: 0;
-    }
-
     nav
     {
         text-align: center;
@@ -76,11 +78,188 @@
     {
         height: 400px;
     }
+
     .Grid
     {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         row-gap: 20px;
         column-gap: 20px;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    li
+    {
+        display: inline;
+        margin-right: 30px;
+        text-align: -webkit-match-parent;
+        unicode-bidi: isolate;
+        color: darkslategrey;
+    }
+
+    ul
+    {
+        background-color: aquamarine;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Title
+    {
+        position: relative;
+        background-color: aquamarine;
+        height: 115px;
+    }
+    
+    #First
+    {
+        text-align: center;
+        padding: 30px;
+        margin: 0;
+        font-size: 40px;
+        position:relative;
+        left: 50px;
+        bottom: 150px;
+    }
+
+    .rowdies-regular {
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+    }
+
+    .Logo
+    {   
+        height: 150px;
+        display: inline;
+        background-color: aquamarine;
+        margin: 0;
+        padding: 10px;
+    }
+
+    nav
+    {
+        text-align: center;
+        background-color: aquamarine;
+        padding: 60px;
+        padding-bottom: 20px;
+    }
+
+    .home-link
+    {
+        text-decoration: none;
+        color: darkslategrey;
+    }
+
+    footer
+    {
+        background-color: aquamarine;
+        color: darkslategrey;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Design > img
+    {
+        height: 320px;
+    }
+
+    .Grid
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+}
+
+@media (max-width: 700px)
+{
+    li
+    {
+        display: inline;
+        margin-right: 30px;
+        text-align: -webkit-match-parent;
+        unicode-bidi: isolate;
+        color: darkslategrey;
+    }
+
+    ul
+    {
+        background-color: aquamarine;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Title
+    {
+        position: relative;
+        background-color: aquamarine;
+        height: 115px;
+    }
+    
+    #First
+    {
+        text-align: center;
+        padding: 30px;
+        margin: 0;
+        font-size: 40px;
+        position:relative;
+        left: 50px;
+        bottom: 150px;
+    }
+
+    .rowdies-regular {
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+    }
+
+    .Logo
+    {   
+        height: 150px;
+        display: inline;
+        background-color: aquamarine;
+        margin: 0;
+        padding: 10px;
+    }
+
+    nav
+    {
+        text-align: center;
+        background-color: aquamarine;
+        padding: 60px;
+        padding-bottom: 20px;
+    }
+
+    .home-link
+    {
+        text-decoration: none;
+        color: darkslategrey;
+    }
+
+    footer
+    {
+        background-color: aquamarine;
+        color: darkslategrey;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Design > img
+    {
+        height: 320px;
+    }
+
+    .Grid
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
     }
 }
