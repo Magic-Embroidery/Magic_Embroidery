@@ -84,6 +84,12 @@
         row-gap: 20px;
         column-gap: 20px;
     }
+
+    .Design
+    {
+        border-style: solid;
+        border-color: black solid;
+    }
 }
 
 @media (max-width: 1000px)
@@ -171,6 +177,12 @@
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 10px;
         column-gap: 10px;
+    }
+
+    .Design
+    {
+        border-style: solid;
+        border-color: black solid;
     }
 }
 
@@ -352,5 +364,11 @@
     {
         border-style: solid;
         border-color: black solid;
+    }
+
+    .Page > p
+    {
+        text-align: center;
+        display: inline;
     }
 }
