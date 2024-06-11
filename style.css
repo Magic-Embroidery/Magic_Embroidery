@@ -81,7 +81,7 @@ footer
         float:none;
     }
 
-@media (max-width: 700px)
+@media (max-width: 800px)
 {
     .Title
     {
@@ -122,7 +122,7 @@ footer
     }
 }
 
-@media (max-width: 480px)
+@media (max-width: 500px)
 {
 
     .Title
