@@ -14,7 +14,6 @@ li
 nav
 {
     background-color: aquamarine;
-    padding: 60px;
     padding-bottom: 20px;
 }
 
@@ -81,11 +80,16 @@ footer
         float:none;
     }
 
-@media (max-width: 900px)
+@media (max-width: 1000px)
 {
     .Title
     {
         height: 115px;
+    }
+
+    nav
+    {
+        padding: 22px;
     }
     
     #First
@@ -102,7 +106,7 @@ footer
 
     .Logo
     {   
-        height: 150px;
+        height: 110%;
     }
 
     .Row
@@ -128,6 +132,11 @@ footer
     .Title
     {
         height: 10px;
+    }
+
+    nav
+    {
+        padding-top: 50px;
     }
     
     ul
