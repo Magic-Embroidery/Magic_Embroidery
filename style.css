@@ -74,7 +74,7 @@
 
     .Design > img
     {
-        height: 400px;
+        height: 380px;
     }
 
     .Grid
@@ -280,7 +280,7 @@
     }
 }
 
-@media (max-width: 400px)
+@media (max-width: 480px)
 {
     ul
     {
@@ -339,36 +339,92 @@
         color: darkslategrey;
     }
 
-    footer
-    {
-        background-color: aquamarine;
-        color: darkslategrey;
-        padding: 20px;
-        text-align: center;
-    }
+    
 
-    .Design > img
-    {
-        height: 190px;
-    }
+    
 
     .Grid
     {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 10px;
-        column-gap: 10px;
+        display: inline-flex;
+        flex-direction: column;
+        gap: 10px;
+        float: left;
+    }
+
+    .Grid_2
+    {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 10px;
+        float: right;
+    }
+
+    .Design_2
+    {
+        border-style: solid;
+        border-color: black;
+    }
+
+    .Design_3
+    {
+        border-style: solid;
+        border-color: black;
+    }
+
+    .Design_4
+    {
+        border-style: solid;
+        border-color: black;
     }
 
     .Design
     {
         border-style: solid;
-        border-color: black solid;
+        border-color: black;
     }
 
     .Page > p
     {
         text-align: center;
         display: inline;
+    }
+    
+    .Design > img
+    {
+        flex: 1;
+        height: 170px;
+    }
+
+    .Design_2 > img
+    {
+        flex: 1;
+        height: 170px;
+    }
+
+   .Design_3 > img
+    {
+        flex: 1;
+        height: 180px;
+    }
+
+    .Design_4 > img
+    {
+        flex: 1;
+        height: 180px;
+    }
+
+    .Page
+    {
+        size:px;
+        float:none;
+    }
+
+    footer
+    {
+        background-color: aquamarine;
+        color: darkslategrey;
+        padding: 20px;
+        text-align: center;
+        float:none;
     }
 }
