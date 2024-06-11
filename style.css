@@ -363,24 +363,28 @@
     {
         border-style: solid;
         border-color: black;
+        width: 100%;
     }
 
     .Design_3
     {
         border-style: solid;
         border-color: black;
+        width: 100%;
     }
 
     .Design_4
     {
         border-style: solid;
         border-color: black;
+        width: 100%;
     }
 
     .Design
     {
         border-style: solid;
         border-color: black;
+        width: 100%;
     }
 
     .Page > p
@@ -392,13 +396,13 @@
     .Design > img
     {
         flex: 1;
-        height: 165px;
+        height: 160px;
     }
 
     .Design_2 > img
     {
         flex: 1;
-        height: 165px;
+        height: 160px;
     }
 
    .Design_3 > img
@@ -416,6 +420,7 @@
     .Page
     {
         size:px;
+        text-align: center;
         float:none;
     }
 
@@ -424,7 +429,7 @@
         background-color: aquamarine;
         color: darkslategrey;
         padding: 20px;
-        text-align: center;
-        float:none;
+        text-align:center;
+        float:none;        
     }
 }
