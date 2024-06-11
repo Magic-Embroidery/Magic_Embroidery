@@ -1,435 +1,165 @@
-@media (max-width: 1536px)
+.home-link
 {
-    li
-    {
-        display: inline;
-        margin-right: 30px;
-        text-align: -webkit-match-parent;
-        unicode-bidi: isolate;
-        color: darkslategrey;
-    }
-
-    ul
-    {
-        background-color: aquamarine;
-        margin: 0;
-        padding: 0;
-    }
-
-    .Title
-    {
-        position: relative;
-        background-color: aquamarine;
-        height: 115px;
-    }
-    
-    #First
-    {
-        text-align: center;
-        padding: 30px;
-        margin: 0;
-        font-size: 70px;
-        position:relative;
-        left: px;
-        bottom: 150px;
-    }
-
-    .rowdies-regular {
-        font-family: "Rowdies", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        position: relative;
-    }
-
-    .Logo
-    {   
-        height: 150px;
-        display: inline;
-        background-color: aquamarine;
-        margin: 0;
-        padding: 10px;
-    }
-
-    nav
-    {
-        text-align: center;
-        background-color: aquamarine;
-        padding: 60px;
-        padding-bottom: 20px;
-    }
-
-    .home-link
-    {
-        text-decoration: none;
-        color: darkslategrey;
-    }
-
-    footer
-    {
-        background-color: aquamarine;
-        color: darkslategrey;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .Design > img
-    {
-        height: 380px;
-    }
-
-    .Grid
-    {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        row-gap: 20px;
-        column-gap: 20px;
-    }
-
-    .Design
-    {
-        border-style: solid;
-        border-color: black solid;
-    }
+    text-decoration: none;
+    color: darkslategrey;
+    margin-right: 25px;
+    flex: 1;
 }
 
-@media (max-width: 1000px)
+li
 {
-    li
-    {
-        display: inline;
-        margin-right: 30px;
-        text-align: -webkit-match-parent;
-        unicode-bidi: isolate;
-        color: darkslategrey;
-    }
-
-    ul
-    {
-        background-color: aquamarine;
-        margin: 0;
-        padding: 0;
-    }
-
-    .Title
-    {
-        position: relative;
-        background-color: aquamarine;
-        height: 115px;
-    }
-    
-    #First
-    {
-        text-align: center;
-        padding: 30px;
-        margin: 0;
-        font-size: 40px;
-        position:relative;
-        left: 50px;
-        bottom: 150px;
-    }
-
-    .rowdies-regular {
-        font-family: "Rowdies", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        position: relative;
-    }
-
-    .Logo
-    {   
-        height: 150px;
-        display: inline;
-        background-color: aquamarine;
-        margin: 0;
-        padding: 10px;
-    }
-
-    nav
-    {
-        text-align: center;
-        background-color: aquamarine;
-        padding: 60px;
-        padding-bottom: 20px;
-    }
-
-    .home-link
-    {
-        text-decoration: none;
-        color: darkslategrey;
-    }
-
-    footer
-    {
-        background-color: aquamarine;
-        color: darkslategrey;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .Design > img
-    {
-        height: 320px;
-    }
-
-    .Grid
-    {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 10px;
-        column-gap: 10px;
-    }
-
-    .Design
-    {
-        border-style: solid;
-        border-color: black solid;
-    }
+    display:inline;
 }
+
+nav
+{
+    background-color: aquamarine;
+    padding: 60px;
+    padding-bottom: 20px;
+}
+
+ul
+{
+    display: flex;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.Title
+{
+    position: relative;
+    background-color: aquamarine;
+}
+
+.Design > img
+{
+    height: 100%;
+    width: 100%;
+}
+
+#First
+{
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    position:relative;
+    
+}
+
+.rowdies-regular 
+{
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+}
+
+.Logo
+{   
+    display: inline;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 10px;
+}
+
+footer
+{
+    background-color: aquamarine;
+    color: darkslategrey;
+    padding: 20px;
+    text-align:center;
+    float:none;        
+}
+
+.Page > p
+    {
+        align-items: center;
+        text-align: center;
+        display: inline;
+        float:none;
+    }
 
 @media (max-width: 700px)
 {
-    li
-    {
-        display: inline;
-        margin-right: 30px;
-        text-align: -webkit-match-parent;
-        unicode-bidi: isolate;
-        color: darkslategrey;
-    }
-
-    ul
-    {
-        background-color: aquamarine;
-        margin: 0;
-        padding: 0;
-    }
-
     .Title
     {
-        position: relative;
-        background-color: aquamarine;
         height: 115px;
     }
     
     #First
     {
-        text-align: center;
-        padding: 30px;
-        margin: 0;
         font-size: 40px;
-        position:relative;
         left: 50px;
         bottom: 150px;
     }
 
-    .rowdies-regular {
-        font-family: "Rowdies", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        position: relative;
+    ul
+    {
+        margin-left: 30%;
     }
 
     .Logo
     {   
         height: 150px;
-        display: inline;
-        background-color: aquamarine;
-        margin: 0;
-        padding: 10px;
     }
 
-    nav
+    .Row
     {
-        text-align: center;
-        background-color: aquamarine;
-        padding: 60px;
-        padding-bottom: 20px;
-    }
-
-    .home-link
-    {
-        text-decoration: none;
-        color: darkslategrey;
-    }
-
-    footer
-    {
-        background-color: aquamarine;
-        color: darkslategrey;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .Design > img
-    {
-        height: 320px;
-    }
-
-    .Grid
-    {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 10px;
-        column-gap: 10px;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
     }
 
     .Design
     {
+        flex: 1;
+        width: 50%;
         border-style: solid;
-        border-color: black solid;
+        border-color: black;
+        width: 100%;
     }
 }
 
 @media (max-width: 480px)
 {
-    ul
-    {
-        background-color: aquamarine;
-        margin: 0;
-        padding: 0;
-        padding-top: 10px;
-    }
 
     .Title
     {
-        position: relative;
-        background-color: aquamarine;
         height: 10px;
     }
     
-    #First
+    ul
     {
-        text-align: center;
-        padding: 30px;
-        margin: 0;
-        font-size: 20px;
-        position:relative;
-        left: 10px;
-        bottom: 80px;
+        margin-left: 40px;
     }
 
-    .rowdies-regular {
-        font-family: "Rowdies", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        position: relative;
+    #First
+    {
+        font-size: 20px;
+        left: 10px;
+        bottom: 80px;
     }
 
     .Logo
     {   
         height: 50px;
-        display: inline;
-        background-color: aquamarine;
-        margin: 0;
-        padding: 10px;
     }
 
-    nav
+    .Row
     {
-        text-align: center;
-        background-color: aquamarine;
-        padding: 60px;
-        padding-bottom: 20px;
-        font-size: 10px;
-    }
-
-    .home-link
-    {
-        text-decoration: none;
-        color: darkslategrey;
-    }
-
-    
-
-    
-
-    .Grid
-    {
-        display: inline-flex;
-        flex-direction: column;
+        display: flex;
         gap: 10px;
-        float: left;
-    }
-
-    .Grid_2
-    {
-        display: inline-flex;
-        flex-direction: column;
-        gap: 10px;
-        float: right;
-    }
-
-    .Design_2
-    {
-        border-style: solid;
-        border-color: black;
-        width: 100%;
-    }
-
-    .Design_3
-    {
-        border-style: solid;
-        border-color: black;
-        width: 100%;
-    }
-
-    .Design_4
-    {
-        border-style: solid;
-        border-color: black;
-        width: 100%;
+        margin-bottom: 10px;
     }
 
     .Design
     {
+        flex: 1;
+        width: 50%;
         border-style: solid;
         border-color: black;
         width: 100%;
-    }
-
-    .Page > p
-    {
-        text-align: center;
-        display: inline;
-    }
-    
-    .Design > img
-    {
-        flex: 1;
-        height: 160px;
-    }
-
-    .Design_2 > img
-    {
-        flex: 1;
-        height: 160px;
-    }
-
-   .Design_3 > img
-    {
-        flex: 1;
-        height: 180px;
-    }
-
-    .Design_4 > img
-    {
-        flex: 1;
-        height: 180px;
-    }
-
-    .Page
-    {
-        size:px;
-        text-align: center;
-        float:none;
-    }
-
-    footer
-    {
-        background-color: aquamarine;
-        color: darkslategrey;
-        padding: 20px;
-        text-align:center;
-        float:none;        
     }
 }
