@@ -18,7 +18,7 @@
 {
     position: relative;
     background-color: aquamarine;
-    height: 150px;
+    height: 150px;  
 }
 
 #First
@@ -28,7 +28,7 @@
     padding: 30px;
     margin: 0;
     position:relative;
-    bottom: 110px;
+    bottom: 160px;
     
 }
 
@@ -46,7 +46,7 @@
     background-color: aquamarine;
     margin: 0;
     padding: 10px;
-    width: 100px;
+    width: 170px;
 }
 
 footer
@@ -91,4 +91,68 @@ footer
 .Pages
 {
     text-align: center;
+}
+
+@media(max-width:1200px) and (min-width:750px)
+{
+    .Logo
+    {
+        width: 130px;
+    }
+
+    #First
+    {
+        bottom: 150px;
+    }
+
+    .gridbox
+    {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media(max-width:750px) and (min-width:650px)
+{
+    .Logo
+    {
+        width: 80px;
+    }
+
+    #First
+    {
+        bottom: 110px;
+    }
+
+    .Title
+    {
+        height: 120px;
+    }
+
+    .gridbox
+    {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width:650px) and (min-width:400px)
+{
+    .Logo
+    {
+        width: 80px;
+    }
+
+    #First
+    {
+        bottom: 110px;
+    }
+
+    .Title
+    {
+        height: 120px;
+    }
+
+    .gridbox
+    {
+        grid-template-columns: auto auto;
+    }
 }
