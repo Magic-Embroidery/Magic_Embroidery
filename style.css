@@ -1,0 +1,59 @@
+.home-link
+{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+.list
+{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.Title
+{
+    position: relative;
+    background-color: aquamarine;
+    height: 150px;
+}
+
+#First
+{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    position:relative;
+    bottom: 110px;
+    
+}
+
+.rowdies-regular 
+{
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+}
+
+.Logo
+{   
+    display: inline;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 10px;
+    width: 100px;
+}
+
+footer
+{
+    background-color: aquamarine;
+    color: darkslategrey;
+    padding: 20px;
+    text-align:center;
+    float:none;        
+}
