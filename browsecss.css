@@ -134,8 +134,13 @@ footer
     }
 }
 
-@media (max-width:650px) and (min-width:400px)
+@media (max-width:650px) and (min-width:560px)
 {
+    .home-link
+    {
+        font-size: 20px;
+    }
+
     .Logo
     {
         width: 80px;
@@ -143,6 +148,8 @@ footer
 
     #First
     {
+        font-size: 40px;
+        left: 10px;
         bottom: 110px;
     }
 
@@ -154,5 +161,125 @@ footer
     .gridbox
     {
         grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:560px) and (min-width:450px)
+{
+    .home-link
+    {
+        font-size: 20px;
+    }
+
+    .Logo
+    {
+        width: 60px;
+    }
+
+    #First
+    {
+        font-size: 35px;
+        left: 10px;
+        bottom: 95px;
+    }
+
+    .Title
+    {
+        height: 90px;
+    }
+
+    .gridbox
+    {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:450px) and (min-width:400px)
+{
+    .home-link
+    {
+        font-size: 20px;
+    }
+
+    .Logo
+    {
+        width: 60px;
+    }
+
+    #First
+    {
+        font-size: 30px;
+        left: 10px;
+        bottom: 95px;
+    }
+
+    .Title
+    {
+        height: 90px;
+    }
+
+    .gridbox
+    {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:400px) and (min-width:320px)
+{
+    .home-link
+    {
+        font-size: 20px;
+    }
+
+    .Logo
+    {
+        width: 35px;
+    }
+
+    #First
+    {
+        font-size: 25px;
+        left: 10px;
+        bottom: 75px;
+    }
+
+    .Title
+    {
+        height: 60px;
+    }
+
+    .gridbox
+    {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:320px)
+{
+    .home-link
+    {
+        font-size: 15px;
+    }
+
+    .Logo
+    {
+        width: 35px;
+    }
+
+    #First
+    {
+        font-size: 25px;
+        left: 10px;
+        bottom: 75px;
+    }
+
+    .Title
+    {
+        height: 75px;
+    }
+
+    .gridbox
+    {
+        grid-template-columns: auto;
     }
 }
