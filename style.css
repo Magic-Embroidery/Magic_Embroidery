@@ -1,15 +1,20 @@
+body
+{
+    background-color: aquamarine;
+}
+
 .home-link
 {
     font-size: 40px;
     text-decoration: none;
     font-weight: bold;
-    color: darkslategrey;
+    color: #770737;
 }
 
 .list
 {
     display: flex;
-    background-color: aquamarine;
+    background-color: #FFB6C1;
     justify-content: space-evenly;
     padding-bottom: 20px;
 }
@@ -17,7 +22,7 @@
 .Title
 {
     position: relative;
-    background-color: aquamarine;
+    background-color: #FFB6C1;
     height: 150px;
 }
 
@@ -29,6 +34,7 @@
     margin: 0;
     position:relative;
     bottom: 110px;
+    color: #770737;
     
 }
 
@@ -43,7 +49,7 @@
 .Logo
 {   
     display: inline;
-    background-color: aquamarine;
+    background-color: #FFB6C1;
     margin: 0;
     padding: 10px;
     width: 100px;
@@ -51,9 +57,165 @@
 
 footer
 {
-    background-color: aquamarine;
+    background-color: #FFB6C1;
     color: darkslategrey;
     padding: 20px;
     text-align:center;
     float:none;        
+}
+
+@media(max-width:1200px) and (min-width:750px)
+{
+    .Logo
+    {
+        width: 130px;
+    }
+
+    #First
+    {
+        bottom: 150px;
+    }
+}
+
+@media(max-width:750px) and (min-width:650px)
+{
+    .Logo
+    {
+        width: 80px;
+    }
+
+    #First
+    {
+        bottom: 110px;
+    }
+
+    .Title
+    {
+        height: 120px;
+    }
+}
+
+@media (max-width:650px) and (min-width:560px)
+{
+    .home-link
+    {
+        font-size: 20px;
+    }
+
+    .Logo
+    {
+        width: 80px;
+    }
+
+    #First
+    {
+        font-size: 40px;
+        left: 10px;
+        bottom: 110px;
+    }
+
+    .Title
+    {
+        height: 120px;
+    }
+}
+
+@media (max-width:560px) and (min-width:450px)
+{
+    .home-link
+    {
+        font-size: 20px;
+    }
+
+    .Logo
+    {
+        width: 60px;
+    }
+
+    #First
+    {
+        font-size: 35px;
+        left: 10px;
+        bottom: 95px;
+    }
+
+    .Title
+    {
+        height: 90px;
+    }
+}
+
+@media (max-width:450px) and (min-width:400px)
+{
+    .home-link
+    {
+        font-size: 20px;
+    }
+
+    .Logo
+    {
+        width: 60px;
+    }
+
+    #First
+    {
+        font-size: 30px;
+        left: 10px;
+        bottom: 95px;
+    }
+
+    .Title
+    {
+        height: 90px;
+    }
+}
+
+@media (max-width:400px) and (min-width:320px)
+{
+    .home-link
+    {
+        font-size: 20px;
+    }
+
+    .Logo
+    {
+        width: 35px;
+    }
+
+    #First
+    {
+        font-size: 25px;
+        left: 10px;
+        bottom: 75px;
+    }
+
+    .Title
+    {
+        height: 60px;
+    }
+}
+
+@media (max-width:320px)
+{
+    .home-link
+    {
+        font-size: 15px;
+    }
+
+    .Logo
+    {
+        width: 35px;
+    }
+
+    #First
+    {
+        font-size: 25px;
+        left: 10px;
+        bottom: 75px;
+    }
+
+    .Title
+    {
+        height: 75px;
+    }
 }
